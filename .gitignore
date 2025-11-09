@@ -1,0 +1,34 @@
+# macOS system files
+.DS_Store
+*/.DS_Store
+
+# Python cache & compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+env/
+venv/
+
+# Logs & temporary files
+*.log
+*.tmp
+
+# Environment files (secrets)
+.env
+.env.*
+
+# VSCode / IDE settings
+.vscode/
+.idea/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Optional: ignore build or data directories
+build/
+dist/
+data/
